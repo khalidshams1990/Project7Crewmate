@@ -1,0 +1,113 @@
+.create-crewmate-container {
+    background: #2c2f33;
+    color: #ffffff;
+    padding: 1em;
+    width: auto; /* Let the container size according to its content */
+    max-width: 90%; /* Max width to prevent it from being too wide */
+    min-width: 720px; /* Minimum width to prevent it from being too narrow */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    /* Centering styles for the container */
+    margin: 2em auto; /* Top and bottom margin for some space, auto to center horizontally */
+  }
+  
+  .create-crewmate-header h2,
+  .create-crewmate-header img {
+    margin: 0 auto; /* Center header and image horizontally */
+    display: block; /* Change display to block for proper margins */
+    max-width: 100%; /* Ensures content fits within the parent container */
+    text-align: center;
+  }
+  
+  .centered-image {
+    max-width: 180px; /* Resize the image to be a bit smaller */
+    height: 200px;
+    margin: 0 auto 1em auto; /* Maintain centering and add margin at the bottom */
+  }
+  
+  .create-crewmate-form {
+    display: flex; /* Change to flex to align form items horizontally */
+    flex-wrap: wrap; /* Wrap items to a new line if they don't fit */
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items to the top */
+    gap: 1em; /* Space between items */
+  }
+  
+  .form-group {
+    background: #40444b;
+    padding: 1em;
+    border-radius: 4px;
+    margin: 0.5em; /* Space around form groups */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 0.9em; /* Slightly smaller font size for labels */
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group input[type="radio"],
+  .form-group label {
+    margin-right: 0.5em; /* Space to the right of form elements */
+  }
+  
+  .submit-button {
+    padding: 1em;
+    background: #7289da;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .submit-button:hover {
+    background: #677bc4;
+  }
+  
+  /* Styling for radio groups */
+  .radio-group {
+    display: flex; /* Use flexbox for aligning radio buttons horizontally */
+    flex-direction: row; /* Align radio buttons in a row */
+    flex-wrap: wrap; /* Wrap to next line if space is needed */
+    gap: 10px; /* Space between radio buttons */
+  }
+  
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.9em; /* Match font size with other labels */
+  }
+  
+  /* Adjust layout for smaller screens if needed */
+  @media (max-width: 768px) {
+    .create-crewmate-container {
+      min-width: 0; /* Remove the minimum width on smaller screens */
+      padding: 1em;
+    }
+    
+    .create-crewmate-form,
+    .radio-group {
+      flex-direction: column; /* Stack form items vertically on smaller screens */
+    }
+  }
+  
+
+  .delete-button {
+    background-color: #ff5555; /* Example color for delete button */
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff4444; /* Darker shade on hover for visual feedback */
+  }
+  

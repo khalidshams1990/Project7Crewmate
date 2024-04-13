@@ -1,0 +1,21 @@
+.crewmate-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+  }
+  
+  .crewmate-card {
+    background: #40444b;
+    color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 200px; /* Fixed width or make it responsive */
+    margin: 1em;
+    text-align: center;
+  }
+  
+  /* Additional styling for heading, paragraphs, etc. inside the card */
+  

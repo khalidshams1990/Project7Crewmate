@@ -1,0 +1,54 @@
+/* App.css */
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.navigation {
+  width: 200px; /* Adjust width as needed */
+  background-color: #333; /* Dark background for the sidebar */
+  color: white;
+  padding: 1rem;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation li {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #1a1a1a; /* Dark background for the main content */
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
+}
+
+.main-content h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.main-content p {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Add this class to your image element */
+.centered-image {
+  display: block; /* Images are inline by default, block will allow margin to be applied */
+  max-width: 50%; /* This will scale the image down if it's larger than half the container's width */
+  height: auto; /* This keeps the aspect ratio intact */
+  margin: 0 auto; /* This centers the image in the container */
+}
+
+
+/* Add additional styling as needed */
