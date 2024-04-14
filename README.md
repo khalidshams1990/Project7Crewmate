@@ -32,6 +32,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='Project7.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Project7updategif.gif' title='Video Walkthrough 2' width='' alt='Video Walkthrough 2' />
 
 GIF created with ...  
 [ScreenToGif](https://www.screentogif.com/) for Windows
